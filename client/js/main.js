@@ -11,6 +11,10 @@ function send()
     {
         response.innerHTML = "Please enter a valid Phone Number and Text Message!";
     }
+    else if((numberInput.value.length > 0) && (numberInput.value.length <= 10))
+    {
+        response.innerHTML = "Please include a valid Country Code along with the Phone Number!"
+    }
     else
     {
         const number = numberInput.value.replace(/\D/g, '');   //regex to remove all non-numeric characters from the input

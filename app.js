@@ -52,3 +52,8 @@ app.post("/", (req, res) => {
 //Start server
 const server = app.listen(port, () => console.log(`Server started on port ${port}`));
 //to try - vonage api instead of nexmo api and axios instead of fetch api
+//for this refer to - 
+// https://github.com/Vonage/vonage-node-code-snippets/blob/2bb4a33/messages/sms/send-sms.js#L21-L25
+// https://developer.vonage.com/en/messaging/sms/code-snippets/send-an-sms?lang=javascript
+// https://api.support.vonage.com/hc/en-us/articles/204014853-How-do-I-add-test-numbers-during-my-Vonage-API-trial#article-comments
+
